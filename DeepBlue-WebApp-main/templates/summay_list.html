@@ -1,0 +1,9 @@
+<h1></h1>
+Summary List</h1>
+<ul>
+    {% for summary in summaries %}
+    <li>{{ summary.summary_text }}</li>
+    {% empty %}
+    <li>No summaries found.</li>
+    {% endfor %}
+</ul>

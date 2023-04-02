@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.upper_banner {
+    /* border: 1px solid black; */
+    width: 95%;
+    height: 100px;
+    margin-left: 35px;
+    margin-top: 24px;
+    border-radius: 20px;
+    background: #ffffff;
+    box-shadow: 2px 2px 12px -4px rgba(0, 0, 0, 0.8);
+    display: flex;
+}
+
+.banleft {
+    /* border: 1px solid black; */
+    /* background: cyan; */
+    height: 100%;
+    width: 1000px;
+    display: flex;
+    align-items: center;
+}
+
+.banleft a {
+    font-size: 40px;
+    font-weight: bolder;
+    margin-left: 80px;
+    color: #ff0055;
+}
+
+.lower_body {
+    /* border: 1px solid black; */
+    width: 95%;
+    height: 570px;
+    margin-left: 35px;
+    margin-top: 24px;
+    border-radius: 20px;
+    background: #ffffff;
+    box-shadow: 2px 2px 12px -4px rgba(0, 0, 0, 0.8);
+    /* display: flex; */
+}
+
+h1 {
+    /* border: 1px solid purple; */
+    width: 200px;
+    color: #415a77;
+    font-size: 20px;
+    font-weight: bold;
+    /* margin-top: 20px; */
+    margin-left: 80px;
+    padding-top: 25px;
+}
+
+.paragraph {
+    border: 1px solid #415a77;
+    border-radius: 15px;
+    width: 900px;
+    height: 420px;
+    margin-left: 60px;
+    margin-top: 25px;
+    padding: 20px 20px 20px 20px;
+    /* overflow-y: auto; */
+}
+
+.para_in {
+    /* border: 1px solid #415a77; */
+    width: 900px;
+    height: 420px;
+    padding-right: 15px;
+    overflow-y: auto;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    /* width of the entire scrollbar */
+    height: 80px;
+}
+
+::-webkit-scrollbar-track {
+    background: #edede9;
+    /* color of the tracking area */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #8d99ae;
+    /* color of the scroll thumb */
+    border-radius: 40px;
+    /* roundness of the scroll thumb */
+}
+
+.line {
+    border: 1px solid #415a77;
+    height: 380px;
+    /* width: 1px; */
+    position: absolute;
+    margin-left: 1040px;
+    margin-top: -420px;
+}
+
+.details {
+    position: absolute;
+    /* border: 1px solid red; */
+    height: 200px;
+    width: 300px;
+    margin-left: 1115px;
+    margin-top: -340px;
+    /* padding: 20px 20px 20px 20px; */
+}
+
+h2 {
+    color: #4361ee;
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
